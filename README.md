@@ -4,15 +4,16 @@
 [![License](https://img.shields.io/badge/License-GPL--2.0--or--later-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-2.0.0-orange.svg)](metadata.txt)
 
-A professional, high-performance **QGIS plugin** designed for real-time intersection angle analysis between vector line layers. Part of the **Ineffable Tools** suite, this tool is essential for route planning, obstacle checking, and geometric validation.
+A professional, **QGIS plugin** designed for real-time intersection angle analysis between vector line layers. Part of the **Ineffable Tools** suite, this tool is essential for route planning, obstacle checking, and geometric validation.
 
 ---
 
 ## ⚡ Overview
 
-The **Crossing Angel Analyser** dynamically calculates the intersection angles between a primary "Input Layer" (e.g., a proposed route) and multiple "Crossing Layers" (e.g., existing infrastructure, bee lines, or environmental buffers). 
+The **Crossing Angel Analyser** dynamically calculates the intersection angles between a primary "Input Layer" (e.g., a proposed route) and multiple "Crossing Layers" (e.g., existing infrastructure, bee lines, or environmental buffers).
 
 As you digitize or edit your route, the plugin automatically:
+
 1. Detects every intersection point.
 2. Calculates the precise angle of crossing.
 3. Generates high-visibility, color-coded markers for instant visual feedback.
@@ -22,6 +23,7 @@ As you digitize or edit your route, the plugin automatically:
 ## 📸 Visual Workflow
 
 ### 1. Before Running
+
 Start with your route and obstacle layers. No analysis has been performed yet.
 
 <p align="center">
@@ -29,6 +31,7 @@ Start with your route and obstacle layers. No analysis has been performed yet.
 </p>
 
 ### 2. Plugin Configuration
+
 Open the **Ineffable Tools** menu and launch the analyser. Select your route and target layers.
 
 <p align="center">
@@ -36,6 +39,7 @@ Open the **Ineffable Tools** menu and launch the analyser. Select your route and
 </p>
 
 ### 3. Real-Time Results
+
 Instance analysis! See exactly where your route crosses obstacles and at what angle.
 
 <p align="center">
@@ -69,9 +73,9 @@ Instance analysis! See exactly where your route crosses obstacles and at what an
 ## 📖 How to Use
 
 1. **Launch:** Locate the **Ineffable Tools** menu in your QGIS top bar and click **Crossing Angel Analyser**.
-2. **Select Input Layer:** In the "Input Layer" dropdown, choose the line layer you are currently editing (e.g., *Proposed Route*).
+2. **Select Input Layer:** In the "Input Layer" dropdown, choose the line layer you are currently editing (e.g., _Proposed Route_).
 3. **Select Crossing Layers:** Select one or more layers from the "Crossing Layers" list that you want to check for intersections.
-4. **Enable Live Angles:** Click the **Enable Live Angles** button. 
+4. **Enable Live Angles:** Click the **Enable Live Angles** button.
 5. **Analyze:** A new layer named **"Angles"** will appear at the top of your layer list. Move your map or edit your lines to see the angles update in real-time.
 
 ---
@@ -91,5 +95,5 @@ This project is licensed under the **GNU General Public License v2.0 or later**.
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/ineffablexd">Ineffable Tools</a>
+  Made with ❤️ by <a href="https://github.com/ineffablexd">Ineffable</a>
 </p>
